@@ -35,8 +35,8 @@ interface FeatureProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#testimonials",
-    label: "Testimonials",
+    href: "#whyus",
+    label: "Why Us",
   },
   {
     href: "#team",
@@ -47,25 +47,25 @@ const routeList: RouteProps[] = [
     label: "Contact",
   },
   {
-    href: "#faq",
-    label: "FAQ",
+    href: "#projects",
+    label: "Our Projects",
   },
 ];
 
 const featureList: FeatureProps[] = [
   {
-    title: "Showcase Your Value ",
-    description: "Highlight how your product solves user problems.",
+    title: "A Trust of a Community",
+    description: "Fostering trust within our community is essential for collaboration and support.",
   },
   {
-    title: "Build Trust",
+    title: "Building the World to be a Better Place",
     description:
-      "Leverages social proof elements to establish trust and credibility.",
+      "We are committed to creating solutions that positively impact our environment and society.",
   },
   {
-    title: "Capture Leads",
+    title: "All by the Community",
     description:
-      "Make your lead capture form visually appealing and strategically.",
+      "Our initiatives are driven by community involvement and shared goals.",
   },
 ];
 
@@ -74,8 +74,7 @@ export const Navbar = () => {
   return (
     <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
       <Link href="/" className="font-bold text-lg flex items-center">
-        <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-        Shadcn
+        OneDev
       </Link>
       {/* <!-- Mobile --> */}
       <div className="flex items-center lg:hidden">
@@ -95,8 +94,7 @@ export const Navbar = () => {
               <SheetHeader className="mb-4 ml-4">
                 <SheetTitle className="flex items-center">
                   <Link href="/" className="flex items-center">
-                    <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-                    Shadcn
+                    OneDev
                   </Link>
                 </SheetTitle>
               </SheetHeader>
@@ -130,13 +128,13 @@ export const Navbar = () => {
         <NavigationMenuList>
           <NavigationMenuItem>
             <NavigationMenuTrigger className="bg-card text-base">
-              Features
+              Our Mission
             </NavigationMenuTrigger>
             <NavigationMenuContent>
               <div className="grid w-[600px] grid-cols-2 gap-5 p-4">
                 <Image
-                  src="https://avatars.githubusercontent.com/u/75042455?v=4"
-                  alt="RadixLogo"
+                  src="https://1anime.co/favicon.ico"
+                  alt="Logo"
                   className="h-full w-full rounded-md object-cover"
                   width={600}
                   height={600}

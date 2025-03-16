@@ -19,10 +19,11 @@ export const CommunitySection = () => {
               <CardTitle className="text-4xl md:text-5xl font-bold flex flex-col items-center">
                 <DiscordIcon />
                 <div>
-                  Ready to join this
+                  Join our
                   <span className="text-transparent pl-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                    Community?
+                    Community
                   </span>
+                  , it's FREE!
                 </div>
               </CardTitle>
             </CardHeader>
@@ -33,7 +34,7 @@ export const CommunitySection = () => {
 
             <CardFooter>
               <Button asChild>
-                <a href="https://discord.com/" target="_blank">
+                <a href="https://dsc.gg/1Anime" target="_blank">
                   Join Discord
                 </a>
               </Button>

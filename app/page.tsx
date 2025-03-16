@@ -12,27 +12,27 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "Shadcn - Landing template",
-  description: "Free Shadcn landing page for developers",
+  title: "One Development LLC - Innovating for a Better Tomorrow",
+  description: "One Development LLC is a community-driven company dedicated to creating inclusive apps and games for everyone.",
   openGraph: {
     type: "website",
-    url: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    url: "https://onedevs.me",
+    title: "One Development LLC - Empowering Communities",
+    description: "Explore our innovative solutions and community-focused projects.",
     images: [
       {
         url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
         width: 1200,
         height: 630,
-        alt: "Shadcn - Landing template",
+        alt: "One Development LLC - Empowering Communities",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    site: "https://onedevs.me",
+    title: "One Development LLC - Empowering Communities",
+    description: "Explore our innovative solutions and community-focused projects.",
     images: [
       "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
     ],
@@ -47,12 +47,7 @@ export default function Home() {
       <BenefitsSection />
       <FeaturesSection />
       <ServicesSection />
-      <TestimonialSection />
-      <TeamSection />
       <CommunitySection />
-      <PricingSection />
-      <ContactSection />
-      <FAQSection />
       <FooterSection />
     </>
   );

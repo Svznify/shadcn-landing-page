@@ -3,7 +3,7 @@ import { Icon } from "@/components/ui/icon";
 import { icons } from "lucide-react";
 
 interface FeaturesProps {
-  icon: string;
+  icon: keyof typeof icons; // Changed to use the actual icon type
   title: string;
   description: string;
 }
@@ -11,57 +11,37 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Inclusive Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "We build apps and games designed for everyone, ensuring accessibility and enjoyment for all users.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Community Trust",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "We are trusted by our users and always listen to the community's feedback to improve our offerings.",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "Unified Vision",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
-  },
-  {
-    icon: "PictureInPicture",
-    title: "Strong Visuals",
-    description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
-  },
-  {
-    icon: "MousePointerClick",
-    title: "Clear CTA",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
-  },
-  {
-    icon: "Newspaper",
-    title: "Clear Headline",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Our 'One' goal and vision drive us to create impactful solutions that resonate with our community.",
   },
 ];
 
 export const FeaturesSection = () => {
   return (
-    <section id="features" className="container py-24 sm:py-32">
+    <section id="whyus" className="container py-24 sm:py-32">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Features
+        All About Community
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        What Makes One Development LLC Different
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        Discover the unique features that set us apart and enhance your experience.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -71,7 +51,7 @@ export const FeaturesSection = () => {
               <CardHeader className="flex justify-center items-center">
                 <div className="bg-primary/20 p-2 rounded-full ring-8 ring-primary/10 mb-4">
                   <Icon
-                    name={icon as keyof typeof icons}
+                    name={icon}
                     size={24}
                     color="hsl(var(--primary))"
                     className="text-primary"

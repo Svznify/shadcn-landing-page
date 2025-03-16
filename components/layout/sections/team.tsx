@@ -24,39 +24,27 @@ interface SocialNetworkProps {
 export const TeamSection = () => {
   const teamList: TeamProps[] = [
     {
-      imageUrl: "https://i.pravatar.cc/250?img=58",
-      firstName: "Leo",
-      lastName: "Miranda",
-      positions: ["Vue Fronted Developer", "Creator Of This Website"],
+      imageUrl: "https://avatars.githubusercontent.com/u/89574788?v=4",
+      firstName: "Svzn",
+      lastName: "Hoshino",
+      positions: ["Dumb Developer", "CEO & President"],
       socialNetworks: [
         {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
+          url: "https://github.com/Svznify",
         },
       ],
     },
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Elizabeth",
-      lastName: "Moore",
-      positions: ["UI/UX Designer"],
+        "https://avatars.githubusercontent.com/u/90539644?v=4",
+      firstName: "",
+      lastName: "Vampelium",
+      positions: ["Executive Chairwoman"],
       socialNetworks: [
         {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
+          name: "Github",
+          url: "https://github.com/Vampelium",
         },
       ],
     },
