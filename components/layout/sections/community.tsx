@@ -23,7 +23,7 @@ export const CommunitySection = () => {
                   <span className="text-transparent pl-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
                     Community
                   </span>
-                  , it's FREE!
+                  , it&apos;s FREE!
                 </div>
               </CardTitle>
             </CardHeader>
