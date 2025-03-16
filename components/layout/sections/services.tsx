@@ -26,6 +26,12 @@ const serviceList: ServiceProps[] = [
     link: "https://1ani.me", // Added link
   },
   {
+   title: "EnjoyTown",
+   description: "A streaming platform for lazy people who like to watch millions of movies, series and animes for free",
+   pro: 0,
+   link: "https://enjoytown.pro"
+  },
+  {
     title: "1AI",
     description: "Chat, build connections and spend time together, with your own AI Character",
     pro: 1,
